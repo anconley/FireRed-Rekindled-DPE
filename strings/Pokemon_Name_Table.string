@@ -1242,85 +1242,85 @@ Chimecho
 Bad Egg
 
 #org @NAME_UNOWNB
-Unown B
+UNOWNB
 
 #org @NAME_UNOWNC
-Unown C
+UNOWNC
 
 #org @NAME_UNOWND
-Unown D
+UNOWND
 
 #org @NAME_UNOWNE
-Unown E
+UNOWNE
 
 #org @NAME_UNOWNF
-Unown F
+UNOWNF
 
 #org @NAME_UNOWNG
-Unown G
+UNOWNG
 
 #org @NAME_UNOWNH
-Unown H
+UNOWNH
 
 #org @NAME_UNOWNI
-Unown I
+UNOWNI
 
 #org @NAME_UNOWNJ
-Unown J
+UNOWNJ
 
 #org @NAME_UNOWNK
-Unown K
+UNOWNK
 
 #org @NAME_UNOWNL
-Unown L
+UNOWNL
 
 #org @NAME_UNOWNM
-Unown M
+UNOWNM
 
 #org @NAME_UNOWNN
-Unown N
+UNOWNN
 
 #org @NAME_UNOWNO
-Unown O
+UNOWNO
 
 #org @NAME_UNOWNP
-Unown P
+UNOWNP
 
 #org @NAME_UNOWNQ
-Unown Q
+UNOWNQ
 
 #org @NAME_UNOWNR
-Unown R
+UNOWNR
 
 #org @NAME_UNOWNS
-Unown S
+UNOWNS
 
 #org @NAME_UNOWNT
-Unown T
+UNOWNT
 
 #org @NAME_UNOWNU
-Unown U
+UNOWNU
 
 #org @NAME_UNOWNV
-Unown V
+UNOWNV
 
 #org @NAME_UNOWNW
-Unown W
+UNOWNW
 
 #org @NAME_UNOWNX
-Unown X
+UNOWNX
 
 #org @NAME_UNOWNY
-Unown Y
+UNOWNY
 
 #org @NAME_UNOWNZ
-Unown Z
+UNOWNZ
 
 #org @NAME_UNOWN_QUESTION
-Unown !
+UNOWN!
 
 #org @NAME_UNOWN_EXCLAMATION
-Unown ?
+UNOWN?
 
 #org @NAME_TURTWIG
 Turtwig
@@ -3560,20 +3560,17 @@ Urshifu
 #org @NAME_ZARUDE
 Zarude
 
+#org @NAME_UNKNOWN_MYTHICAL
+??????
+
+#org @NAME_CALYREX
+Calyrex
+
 #org @NAME_REGIELEKI
 Regieleki
 
 #org @NAME_REGIDRAGO
 Regidrago
-
-#org @NAME_GLASTRIER
-Glastrier
-
-#org @NAME_SPECTRIER
-Spectrier
-
-#org @NAME_CALYREX
-Calyrex
 
 #org @NAME_CRAMORANT_GULPING
 Cramorant
@@ -3628,15 +3625,6 @@ Eternatus
 
 #org @NAME_URSHIFU_RAPID
 Urshifu
-
-#org @NAME_ZARUDE_DADA
-Zarude
-
-#org @NAME_CALYREX_ICE
-Calyrex
-
-#org @NAME_CALYREX_SHADOW
-Calyrex
 
 #org @NAME_MEOWTH_G
 Meowth

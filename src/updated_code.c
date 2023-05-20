@@ -55,7 +55,7 @@ struct PivotalDexSpecies
 static const struct PivotalDexSpecies sPivotalDexSpecies[] =
 {
 	//These species have Pokemon grouped in order after them
-	{SPECIES_ROWLET, NATIONAL_DEX_ROWLET},
+	//{SPECIES_ROWLET, NATIONAL_DEX_ROWLET}, //TODO: Edit by foottotheface
 	{SPECIES_CHESPIN, NATIONAL_DEX_CHESPIN},
 	{SPECIES_TURTWIG, NATIONAL_DEX_TURTWIG},
 	{SPECIES_TREECKO, NATIONAL_DEX_TREECKO},

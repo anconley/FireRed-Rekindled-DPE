@@ -13890,7 +13890,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KUBFU] =
+/*	[SPECIES_KUBFU] =
 	{	
 		.type = 0x20,
 		.key = 0x3c,
@@ -13908,7 +13908,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryUrshifuSingle,
+		.wav = gCryUrshifu,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -13921,6 +13921,30 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.length = 0x0,
 		.pan_sweep = 0x0,
 		.wav = gCryZarude,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_UNKNOWN_MYTHICAL] =
+	{	
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCryUnknownMythical,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_CALYREX] =
+	{	
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCryCalyrex,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -13949,43 +13973,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
-	},
-	[SPECIES_GLASTRIER] =
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryGlastrier,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_SPECTRIER] =
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCrySpectrier,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_CALYREX] =
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryCalyrex,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
+	}, */
 	[SPECIES_CRAMORANT_GULPING] =
 	{	
 		.type = 0x20,
@@ -14160,7 +14148,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryZacianCrowned,
+		.wav = gCryZacian,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -14172,7 +14160,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryZamazentaCrowned,
+		.wav = gCryZamazenta,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -14190,54 +14178,18 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_URSHIFU_RAPID] =
+/*	[SPECIES_URSHIFU_RAPID] =
 	{	
 		.type = 0x20,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryUrshifuRapid,
+		.wav = gCryUrshifu,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
-	}, 
-	[SPECIES_ZARUDE_DADA] =
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryZarude,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	}, 
-	[SPECIES_CALYREX_ICE_RIDER] =
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryCalyrexIceRider,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_CALYREX_SHADOW_RIDER] =
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryCalyrexShadowRider,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
+	}, */
 	[SPECIES_MEOWTH_G] =
 	{	
 		.type = 0x20,
@@ -14305,18 +14257,6 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.length = 0x0,
 		.pan_sweep = 0x0,
 		.wav = (u8*) 0x8563570,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_KOFFING_G] =
-	{
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = (u8*) 0x8583f4c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -14425,18 +14365,6 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.length = 0x0,
 		.pan_sweep = 0x0,
 		.wav = (u8*) 0x868c884,	
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_MIME_JR_G] = 
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryMimeJr,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -14886,13 +14814,13 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_URSHIFU_SINGLE_GIGA] =
+/*	[SPECIES_URSHIFU_SINGLE_GIGA] =
 	{	
 		.type = 0x20,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryUrshifuSingle,
+		.wav = gCryUrshifu,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -14904,10 +14832,11 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryUrshifuRapid,
+		.wav = gCryUrshifu,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
+*/	
 };

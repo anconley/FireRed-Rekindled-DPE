@@ -1495,6 +1495,12 @@ const u16 gMountainPage30[] =
 	SPECIES_NOIVERN,
 };
 
+const u16 gMountainPage31[] =
+{
+	SPECIES_XERNEAS,
+	SPECIES_YVELTAL,
+};
+
 const u16 gRoughTerrainPage1[] =
 {
 	SPECIES_SPEAROW,
@@ -1898,6 +1904,24 @@ const u16 gRarePage12[] =
 	SPECIES_ARCEUS_FAIRY,
 };
 
+const u16 gRarePage13[] =
+{
+	SPECIES_KYUREM,
+};
+
+const u16 gRarePage14[] =
+{
+	SPECIES_GENESECT,
+};
+
+const u16 gRarePage15[] =
+{
+	SPECIES_GENESECT_SHOCK,
+	SPECIES_GENESECT_BURN,
+	SPECIES_GENESECT_CHILL,
+	SPECIES_GENESECT_DOUSE,
+};
+
 const struct HabitatPage gGrasslandPages[] =
 {
 	{gGrasslandPage1, ARRAY_COUNT(gGrasslandPage1)}, 
@@ -2130,6 +2154,7 @@ const struct HabitatPage gMountainPages[] =
 	{gMountainPage28, ARRAY_COUNT(gMountainPage28)}, 
 	{gMountainPage29, ARRAY_COUNT(gMountainPage29)}, 
 	{gMountainPage30, ARRAY_COUNT(gMountainPage30)}, 
+	{gMountainPage31, ARRAY_COUNT(gMountainPage31)}, 
 };
 
 const struct HabitatPage gRoughTerrainPages[] =
@@ -2201,6 +2226,9 @@ const struct HabitatPage gRarePages[] =
 	{gRarePage10, ARRAY_COUNT(gRarePage10)}, 
 	{gRarePage11, ARRAY_COUNT(gRarePage11)}, 
 	{gRarePage12, ARRAY_COUNT(gRarePage12)}, 
+	{gRarePage11, ARRAY_COUNT(gRarePage13)}, 
+	{gRarePage12, ARRAY_COUNT(gRarePage14)}, 
+	{gRarePage11, ARRAY_COUNT(gRarePage15)}, 
 };
 
 const struct Habitat gHabitatPtrsTable[9] =

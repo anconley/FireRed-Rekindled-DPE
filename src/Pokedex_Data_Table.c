@@ -6044,6 +6044,18 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 256,
 		.trainerOffset = 0,
 	},
+	[NATIONAL_DEX_HEATRAN] =
+	{
+		.categoryName = {_L, _a, _v, _a, _SPACE, _D, _o, _m, _e, _END, _SPACE, _SPACE},
+		.height = 17,
+		.weight = 4300,
+		.description = DEX_ENTRY_HEATRAN,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 256,
+		.pokemonOffset = 0,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+	},
 	[NATIONAL_DEX_REGIGIGAS] =
 	{
 		.categoryName = {_C, _o, _l, _o, _s, _s, _a, _l, _END, _SPACE, _SPACE, _SPACE},
@@ -7772,7 +7784,18 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 256,
 		.trainerOffset = 0,
 	},
-	
+	[NATIONAL_DEX_GENESECT] =
+	{
+		.categoryName = {_P, _a, _l, _e, _o, _z, _o, _i, _c, _END, _SPACE, _SPACE},
+		.height = 15,
+		.weight = 825,
+		.description = DEX_ENTRY_GENESECT,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 256,
+		.pokemonOffset = 0,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+	},
 	[NATIONAL_DEX_BUNNELBY] =
 	{
 		.categoryName = {_D, _i, _g, _g, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE, _SPACE},
@@ -8415,6 +8438,30 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.height = 15,
 		.weight = 850,
 		.description = DEX_ENTRY_NOIVERN,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 256,
+		.pokemonOffset = 0,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+	},
+	[NATIONAL_DEX_XERNEAS] =
+	{
+		.categoryName = {_L, _i, _f, _e, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 30,
+		.weight = 2150,
+		.description = DEX_ENTRY_XERNEAS,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 256,
+		.pokemonOffset = 0,
+		.trainerScale = 256,
+		.trainerOffset = 0,
+	},
+	[NATIONAL_DEX_YVELTAL] =
+	{
+		.categoryName = {_D, _e, _s, _t, _r, _u, _c, _t, _i, _o, _n, _END},
+		.height = 58,
+		.weight = 2030,
+		.description = DEX_ENTRY_YVELTAL,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
 		.pokemonOffset = 0,

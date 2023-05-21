@@ -1202,7 +1202,7 @@ const u16 gCavePage15[] =
 const u16 gCavePage16[] =
 {
 	SPECIES_HEATRAN,
-}
+};
 
 const u16 gCavePage17[] =
 {

@@ -953,7 +953,6 @@ const u16 gWatersEdgePage26[] =
 	SPECIES_FROAKIE,
 	SPECIES_FROGADIER,
 	SPECIES_GRENINJA,
-	SPECIES_ASHGRENINJA,
 };
 
 const u16 gWatersEdgePage27[] =

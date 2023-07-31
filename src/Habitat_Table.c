@@ -627,6 +627,8 @@ const u16 gForestPage33[] =
 {
 	SPECIES_CRESSELIA,
 	SPECIES_DARKRAI,
+	SPECIES_SHAYMIN,
+	SPECIES_SHAYMIN_SKY,
 };
 
 const u16 gForestPage34[] =
@@ -1083,11 +1085,16 @@ const u16 gSeaPage16[] =
 
 const u16 gSeaPage17[] =
 {
+	SPECIES_MANAPHY,
+};
+
+const u16 gSeaPage18[] =
+{
 	SPECIES_TIRTOUGA,
 	SPECIES_CARRACOSTA,
 };
 
-const u16 gSeaPage18[] =
+const u16 gSeaPage19[] =
 {
 	SPECIES_FRILLISH,
 	SPECIES_JELLICENT,
@@ -1201,6 +1208,9 @@ const u16 gCavePage15[] =
 const u16 gCavePage16[] =
 {
 	SPECIES_HEATRAN,
+	SPECIES_UXIE,
+	SPECIES_MESPRIT,
+	SPECIES_AZELF,
 };
 
 const u16 gCavePage17[] =
@@ -1905,15 +1915,29 @@ const u16 gRarePage12[] =
 
 const u16 gRarePage13[] =
 {
-	SPECIES_KYUREM,
+	SPECIES_TORNADUS,
+	SPECIES_THUNDURUS,
+	SPECIES_LANDORUS,
 };
 
 const u16 gRarePage14[] =
 {
-	SPECIES_GENESECT,
+	SPECIES_TORNADUS_THERIAN,
+	SPECIES_THUNDURUS_THERIAN,
+	SPECIES_LANDORUS_THERIAN,
 };
 
 const u16 gRarePage15[] =
+{
+	SPECIES_KYUREM,
+};
+
+const u16 gRarePage16[] =
+{
+	SPECIES_GENESECT,
+};
+
+const u16 gRarePage17[] =
 {
 	SPECIES_GENESECT_SHOCK,
 	SPECIES_GENESECT_BURN,
@@ -2087,6 +2111,7 @@ const struct HabitatPage gSeaPages[] =
 	{gSeaPage16, ARRAY_COUNT(gSeaPage16)}, 
 	{gSeaPage17, ARRAY_COUNT(gSeaPage17)}, 
 	{gSeaPage18, ARRAY_COUNT(gSeaPage18)}, 
+	{gSeaPage19, ARRAY_COUNT(gSeaPage19)},
 };
 
 const struct HabitatPage gCavePages[] =
@@ -2225,9 +2250,11 @@ const struct HabitatPage gRarePages[] =
 	{gRarePage10, ARRAY_COUNT(gRarePage10)}, 
 	{gRarePage11, ARRAY_COUNT(gRarePage11)}, 
 	{gRarePage12, ARRAY_COUNT(gRarePage12)}, 
-	{gRarePage11, ARRAY_COUNT(gRarePage13)}, 
-	{gRarePage12, ARRAY_COUNT(gRarePage14)}, 
-	{gRarePage11, ARRAY_COUNT(gRarePage15)}, 
+	{gRarePage13, ARRAY_COUNT(gRarePage13)}, 
+	{gRarePage14, ARRAY_COUNT(gRarePage14)}, 
+	{gRarePage15, ARRAY_COUNT(gRarePage15)}, 
+	{gRarePage16, ARRAY_COUNT(gRarePage16)}, 
+	{gRarePage17, ARRAY_COUNT(gRarePage17)}, 
 };
 
 const struct Habitat gHabitatPtrsTable[9] =

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 from glob import glob
 from pathlib import Path
@@ -389,6 +389,7 @@ def main():
         '**/*.mid': ProcessMusic,
     }
 
+    print(sys.version_info)
     if sys.version_info.major >= 3 and sys.version_info.minor >= 8:
         print("Warning! Python 3.8 may not be able to build this engine.\nPlease downgrade to Python 3.7.4")
 
